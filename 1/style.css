@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    color: darkblue;
+    background: blue;
+}
+@media (max-width: 990px) {
+    .title{
+        background: pink;
+        font-size: 48px;
+    }
+}
+@media (max-width: 750px) {
+    .title{
+        background: brown;
+        font-size: 24px;
+    }
+    
+}
+@media (max-width: 600px) {
+    .title{
+        background: black;
+        font-size: 14px;
+    }
+}
